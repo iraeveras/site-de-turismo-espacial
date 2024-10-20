@@ -1,0 +1,8 @@
+.container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    max-height: 1024px;
+  }

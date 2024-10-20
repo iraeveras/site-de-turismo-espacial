@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 136px);
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding: 0;
+        height: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .wrapper {
+        padding: 0;
+    }
+}
